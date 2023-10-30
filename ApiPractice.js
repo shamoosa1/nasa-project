@@ -12,7 +12,7 @@ function getFetch(){
             console.log(data)
             if (data.media_type == 'video'){ // if nasa media_type is a video, show video using video 'url' property
                 document.querySelector('iframe').src = data.url 
-                document.querySelector('img').src = ""
+                document.querySelector('img').style.display = "none";
             }
 
             else if (data.media_type == 'image'){ // if it is an img, set img to the src given in the 'hdurl' property 
