@@ -1,32 +1,34 @@
-# My Awesome Project
-Write a short sentence or two about this project and what it does. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
+# My NASA API Project
+This project involves entering in a date, to which it will return live NASA published on that date. Examples of this includes a photo/video, along with an explanation of said photo and/or video. 
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
-
-![alt tag](http://placecorgi.com/1200/650)
+**Link to project:** https://shamshasan0.github.io/NASA-API-practice/
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, Framework of choice
+**Tech used:** HTML, CSS, JavaScript
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+I utilized the fetch API method (using the concept of RESTful APIs) to request data from a unqiue NASA url.
+I then converted that data into JSON format for JavaScript readability purposes, and used that to access information such as properties within that data. 
+After, I proceeded to manipulate the DOM using document query selectors to replace the html content, with content in those properties being provided by the NASA API.
+In the CSS file, I styled very simple parts of the page such as the background color, alignment of content, and margin-spacing. 
+Most of the project was done using JavaScript.
 
 ## Optimizations
-*(optional)*
-
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+Set the maximum width of images and videos to 100%, in order to improve responsiveness for all devices. All content in the website is responsive.
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *wow I actually did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+Learning how JSON reads url requests and then enables you to read data in Objects, as well as how to manipulate the DOM and replace the html content inside tags with the data from an API.
 
 ## Examples:
-Take a look at these couple examples that I have in my own portfolio:
+Take a look at these couple examples:
 
-**Palettable:** https://github.com/alecortega/palettable
+<img width="1440" alt="Screenshot 2023-10-30 at 5 07 17 PM" src="https://github.com/shamshasan0/NASA-API-practice/assets/105460072/8d9d675d-9984-49f7-b317-787291d466c9">
 
-**Twitter Battle:** https://github.com/alecortega/twitter-battle
+<img width="1436" alt="Screenshot 2023-10-30 at 5 08 28 PM" src="https://github.com/shamshasan0/NASA-API-practice/assets/105460072/0481ae62-4351-4920-a06a-6a38f379db2a">
 
-**Patch Panel:** https://github.com/alecortega/patch-panel
+<img width="1440" alt="Screenshot 2023-10-30 at 5 09 47 PM" src="https://github.com/shamshasan0/NASA-API-practice/assets/105460072/dcdcb98e-8901-4096-8179-5d8b3e6c380f">
+
+
 
 
