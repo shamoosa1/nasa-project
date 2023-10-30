@@ -12,16 +12,24 @@ function getFetch(){
             console.log(data)
             if (data.media_type == 'video'){ // if nasa media_type is a video, show video using video 'url' property
                 document.querySelector('iframe').src = data.url 
+                document.querySelector('img').src = ""
             }
+
             else if (data.media_type == 'image'){ // if it is an img, set img to the src given in the 'hdurl' property 
                 document.querySelector('img').src = data.hdurl
+                document.querySelector('iframe').style.display = "none";
             }
+            if (data.explanation == undefined){ // if there is no data, display this msg
+                document.querySelector("h3").textContent = data.msg
+                // document.querySelector(".container").style.display = none;
+            }
+            else{ // otherwise, display the explanation
+                document.querySelector('h3').innerText = data.explanation
+            }
+            // center all images and videos
+            document.querySelector(".container",).setAttribute("align", "center")
+            })
             
-            document.querySelector('h3').innerText = data.explanation // replace current h3 with the NASA photo explanation
-            // if (document.querySelector("h3") == undefined){
-            //     document.querySelector("h3").innerText = "No data found. Please select a later date."
-            // }
-        })
         .catch(err => {
             console.log("error" + err)})
         }
