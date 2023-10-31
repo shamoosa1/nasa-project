@@ -11,7 +11,8 @@ function getFetch(){
     fetch(url) 
         .then(response => response.json())
         .then(data => {
-            console.log(data)
+            console.log(data) // print data of the response Object
+
             if (data.media_type == 'video'){ // if nasa media_type property is a video, set its url into the iframe html tag
                 document.querySelector('iframe').src = data.url 
                 document.querySelector('img').style.display = "none";
@@ -34,7 +35,7 @@ function getFetch(){
                 document.querySelector('h3').innerText = data.explanation
             }
             // center all images and videos
-            document.querySelector(".container",).setAttribute("align", "center")
+            document.querySelector(".container").setAttribute("align", "center")
             })
             
         .catch(err => {
