@@ -1,10 +1,10 @@
-// once the button is clicked, call the getFetch method
+// once the form is submitted, call the getFetch method
 document.querySelector('form').addEventListener('submit', getFetch)
 
 function getFetch(event){
-    event.preventDefault()
+    event.preventDefault() // prevent the re-loading default behavior by submit
     const choice = document.querySelector('input').value // store the date entered into choice
-     // nasa url string interpolated into the format of yyyy/mm/dd as per NASA's API rules
+     // interpolating date into the format of yyyy/mm/dd as per NASA's API rules
     const url = `https://api.nasa.gov/planetary/apod?api_key=FdNBc6m84t4tfHShojKYDJ1lCAADU23yA1FF24Nk&date=${choice}`
     
     // convert the response into JSON format
