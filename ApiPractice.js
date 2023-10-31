@@ -13,18 +13,20 @@ function getFetch(event){
         .then(data => {
             console.log(data) // print data of the response Object
 
-            if (data.media_type == 'video'){ // if nasa media_type property is a video, set its url into the iframe html tag
-                document.querySelector('iframe').src = data.url 
+            if (data.media_type === 'video'){ // if nasa media_type property is a video, set its url into the iframe html tag
+                document.querySelector('iframe').src = data.url
+                document.querySelector('iframe').style.display = "inline";
                 document.querySelector('img').style.display = "none";
             }
-
-            else if (data.media_type == 'image'){ // if media_type is an img, set img html tag to the src given in the 'hdurl' property 
-                document.querySelector('img').src = data.hdurl
-                document.querySelector('iframe').style.display = "none"; // do not display the videos from recent dates entered
-            }
             
+            else if (data.media_type === 'image'){ // if media_type is an img, set img html tag to the src given in the 'hdurl' property 
+                document.querySelector('img').src = data.hdurl
+                document.querySelector('img').style.display = "inline";
+                document.querySelector('iframe').style.display = "none"; // do not display the videos from recent dates entered
+                
+            }
             // if there is no data on this date, display the msg from the API 
-            if (data.explanation == undefined){ 
+            if (data.explanation === undefined){ 
                 document.querySelector("h3").textContent = data.msg
                 document.querySelector('iframe').style.display = "none"; 
                 document.querySelector('img').style.display = "none"; 
