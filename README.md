@@ -1,5 +1,5 @@
 # My NASA API Project
-This project involves entering in a date, to which it will return live NASA published on that date. Examples of this includes a photo/video, along with an explanation of said photo and/or video. 
+This project involves entering in a date, to which it will return live NASA published on that date. Examples of this includes a photo or video, along with an explanation of said photo/video. 
 
 **Link to project:** https://shamshasan0.github.io/NASA-API-Project/
 
@@ -7,18 +7,18 @@ This project involves entering in a date, to which it will return live NASA publ
 
 **Tech used:** HTML, CSS, JavaScript
 
-I utilized the fetch API method (using the concept of RESTful APIs) to request data from a unqiue NASA url.
-I then converted that data into JSON format for JavaScript readability purposes, and used that to access information such as properties within that data. 
-After, I proceeded to manipulate the DOM using document query selectors to replace the html content, with content in those properties being provided by the NASA API.
-In the CSS file, I styled very simple parts of the page such as the background color, alignment of content, and margin-spacing. 
+I utilized the fetch API method (the concept of RESTful APIs), as well as JSON parsing, to request data from a NASA url containing a unique API key.
+I then converted that data into JSON format for JavaScript readability purposes, and used that to access information such as properties and attributes within that data. 
+After, I proceeded to manipulate the DOM using document query selectors to replace the current html content, with content provided by those properties.
+In the CSS file, I styled very simple parts of the page such as the background color, alignment of content, and margin-spacing. I also used media queries.
 Most of the project was done using JavaScript.
 
 ## Optimizations
-Set the maximum width of images and videos to 100%, in order to improve responsiveness for all devices. All content in the website is responsive.
+Optimized web responsiveness by using media queries for many devices including Desktop/Laptops/Ipads/Iphones/Pixels/Kindles.
 
 ## Lessons Learned:
-
-Learning how JSON reads url requests and then enables you to read data in Objects, as well as how to manipulate the DOM and replace the html content inside tags with the data from an API.
+Main lesson learned: To take advantage of inspect features on browser to mess around with CSS styling, rather than changing the code on VS Code and testing over and over again.
+Lesson two: Making a website look nicer takes some time, so give yourself some time to come up with creative ideas.
 
 ## Examples:
 Take a look at these couple examples:
