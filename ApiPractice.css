@@ -10,14 +10,7 @@ img,iframe {
 }
 
 h1, h3{
-<<<<<<< HEAD
-    color:rgb(211,211,211)
-}
-
-h1, h3, input, button{
-=======
     color:rgb(211,211,211);
->>>>>>> 0186077 (adjusted button padding)
     text-align:center;
 }
 
