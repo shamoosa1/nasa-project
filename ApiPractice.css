@@ -10,10 +10,14 @@ img,iframe {
 }
 
 h1, h3{
+<<<<<<< HEAD
     color:rgb(211,211,211)
 }
 
 h1, h3, input, button{
+=======
+    color:rgb(211,211,211);
+>>>>>>> 0186077 (adjusted button padding)
     text-align:center;
 }
 
@@ -21,7 +25,12 @@ input,button{
     display:block;
     margin:auto;
     margin-bottom: 1rem;
+    text-align:center;
+    border-radius: 50px;
+    border:none;
 }
+
+
 
 /* desktop and laptops*/
 @media (max-width: 3000px){ 
@@ -96,6 +105,12 @@ input,button{
     }
     h3{
         font-size: 1em;
+    }
+}
+
+@media all {
+    button{
+        padding: 12px 25px; /* top and bottom, right and left */
     }
 }
 
