@@ -71,6 +71,7 @@ input,button{
         height: 300px;
     }
 } 
+
 /* Samsungs + newer iphones */
 @media (max-width: 450px){
     input,button{
