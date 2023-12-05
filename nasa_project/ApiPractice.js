@@ -18,7 +18,7 @@ function getFetch(event){
                 document.querySelector('iframe').style.display = "inline";
                 document.querySelector('img').style.display = "none";
             }
-            
+          
             else if (data.media_type === 'image'){ // if media_type is an img, set img html tag to the src given in the 'hdurl' property 
                 document.querySelector('img').src = data.hdurl
                 document.querySelector('img').style.display = "inline";

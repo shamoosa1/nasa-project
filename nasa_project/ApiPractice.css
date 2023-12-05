@@ -36,7 +36,7 @@ input,button{
     }
 }
 
-/* ipad pro */
+/* ipad pro,  */
 @media (min-height:1300px){
     input, button{
         padding: 20px;
@@ -80,6 +80,7 @@ input,button{
     }
     h1{
         font-size:27.5px;
+        margin-bottom: 1rem;
     }
     iframe{
         width: 450px;
@@ -87,8 +88,15 @@ input,button{
     h3{
         font-size: 1em;
     }
+    #arrow{
+        
+        color: white;
+        display:block;
+        text-align:center;
+
+    }
 }
-/* iphone SE + kindles + Pixel 3/4/5*/
+/* iphone SE + Pixel 3/4/5*/
 @media (max-width: 400px){
     input,button{
         padding: 10px;
