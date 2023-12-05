@@ -1,7 +1,7 @@
 # My NASA API Project
 This project involves entering in a date, to which it will return live NASA published on that date. Examples of this includes a photo or video, along with an explanation of said photo/video. 
 
-**Link to project:** https://shamshasan0.github.io/NASA-API-Project/
+**Link to project:** https://shamshasan0.github.io/nasa-project/
 
 ## How It's Made:
 
