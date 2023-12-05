@@ -1,118 +1,116 @@
-body{
-    background-color:rgb(4, 27, 134);
+body {
+    background-color: rgb(4, 27, 134);
     font-family: "Open Sans", sans-serif;
     font-size: 15px;
 }
 
-img,iframe {
+img,
+iframe {
     max-width: 100%;
     max-height: 100%;
 }
 
-h1, h3{
-    color:rgb(211,211,211);
-    text-align:center;
+h1,
+h3 {
+    color: rgb(211, 211, 211);
+    text-align: center;
 }
 
-input,button{
-    display:block;
-    margin:auto;
+input,
+button {
+    display: block;
+    margin: auto;
     margin-bottom: 1rem;
-    text-align:center;
+    text-align: center;
     border-radius: 50px;
-    border:none;
+    border: none;
 }
-
-
 
 /* desktop and laptops*/
-@media (max-width: 3000px){ 
-    input, button{
+@media (max-width: 3000px) {
+    input,
+    button {
         padding: 15px;
         font-size: 1em;
     }
-    iframe{
+    iframe {
         width: 450px;
     }
 }
 
 /* ipad pro,  */
-@media (min-height:1300px){
-    input, button{
+@media (min-height: 1300px) {
+    input,
+    button {
         padding: 20px;
-        font-size:2.5em;
+        font-size: 2.5em;
     }
-    iframe{
+    iframe {
         width: 475px;
         height: 325px;
     }
-    h1{
+    h1 {
         font-size: 3.25em;
     }
-    h3{
+    h3 {
         font-size: 2em;
     }
 }
 
 /* ipad mini/air + kindles */
-@media (max-width: 850px){
-    input, button{
+@media (max-width: 850px) {
+    input,
+    button {
         padding: 17.5px;
         font-size: 2em;
     }
-    h1{
+    h1 {
         font-size: 3em;
     }
-    h3{
+    h3 {
         font-size: 1.75em;
     }
-    iframe{
+    iframe {
         width: 450px;
         height: 300px;
     }
-} 
+}
 
 /* Samsungs + newer iphones */
-@media (max-width: 450px){
-    input,button{
+@media (max-width: 450px) {
+    input,
+    button {
         padding: 15px;
         font-size: 1em;
     }
-    h1{
-        font-size:27.5px;
+    h1 {
+        font-size: 27.5px;
         margin-bottom: 1rem;
     }
-    iframe{
+    iframe {
         width: 450px;
     }
-    h3{
+    h3 {
         font-size: 1em;
-    }
-    #arrow{
-        
-        color: white;
-        display:block;
-        text-align:center;
-
     }
 }
 /* iphone SE + Pixel 3/4/5*/
-@media (max-width: 400px){
-    input,button{
+@media (max-width: 400px) {
+    input,
+    button {
         padding: 10px;
         font-size: 1em;
     }
-    iframe{
+    iframe {
         width: 450px;
     }
-    h3{
+    h3 {
         font-size: 1em;
     }
 }
 
 @media all {
-    button{
+    button {
         padding: 12px 25px; /* top and bottom, right and left */
     }
 }
-
