@@ -5,7 +5,7 @@ This project involves entering in a date, to which it will return live NASA publ
 
 ## How It's Made:
 
-**Tech used:** HTML5, CSS3, Vanilla JS
+**Tech used:** HTML5, CSS3, JavaScript
 
 I utilized the fetch API method (the concept of RESTful APIs), as well as JSON parsing, to request data from a NASA url containing a unique API key.
 I then converted that data into JSON format for JavaScript readability purposes, and used that to access information such as properties and attributes within that data. 
