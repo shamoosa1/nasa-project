@@ -36,6 +36,9 @@ button {
     iframe {
         width: 450px;
     }
+    img{
+        max-height: 450px;
+    }
 }
 
 /* ipad pro,  */
